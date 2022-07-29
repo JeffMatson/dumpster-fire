@@ -1,0 +1,26 @@
+<?php
+
+namespace NotifyBot\Notifications\Triggers;
+
+use NotifyBot\Models\Notifications;
+use NotifyBot\Models\Queue;
+use NotifyBot\Notifications\Triggers;
+
+class Setting_Comment_Blacklist_Words extends Trigger {
+
+	public $id          = 'setting-comment-blacklist-words';
+	public $depends_on  = 'setting';
+	public $placeholder = 'The comment blacklist words have been changed by {user}';
+	public $label       = 'Comment Blacklist Words';
+
+	public function listeners() {
+		add_action( 'update_option_blacklist_keys', array( $this, 'triggered' ) );
+	}
+
+	public function triggered() {
+		Queue::get_instance()->add_to_queue( Notifications::get_instance()->get_all_by_trigger( $this->id ) );
+	}
+
+}
+
+Triggers::register( new Setting_Comment_Blacklist_Words() );

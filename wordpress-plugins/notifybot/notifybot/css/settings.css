@@ -1,0 +1,51 @@
+.nb-column-left {
+    display:inline-block;
+    width:50%;
+    left: 0;
+}
+
+.nb-column-right {
+    display:inline;
+    width: 50%;
+    right: 0;
+}
+
+.nb-setting-group h2, h3 {
+    margin-top: 0;
+}
+
+.nb-setting-group h3 {
+    text-transform: uppercase;
+    font-size: 1.1em;
+    border-bottom: 1px solid #dedede;
+    margin: 0 0 15px 0;
+}
+
+.nb-setting-group {
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+#nb-setting-group-license .submit {
+    display: inline;
+}
+
+.nb_license_key_input {
+    width: 40% !important;
+}
+
+.nb-setting-row .nb-column-left {
+    vertical-align: top;
+}
+
+.nb-setting-row .nb-column-right ul, p {
+    display: inline-block;
+}
+
+#stealth-mode-activate input {
+    width: 100%;
+}

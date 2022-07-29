@@ -1,0 +1,1 @@
+jQuery(document).ready(function(){jQuery(".nb-select2").select2({width:"49%",placeholder:"",tags:function(){if(jQuery(this).is(":multiple"))return!0},tokenSeparators:[","," "]})});

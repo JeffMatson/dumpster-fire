@@ -1,0 +1,6 @@
+{
+    "require": {
+        "katzgrau/klogger": "dev-master",
+        "mibe/feedwriter": "dev-master"
+    }
+}

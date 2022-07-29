@@ -1,0 +1,455 @@
+#wp-notifybot-editor-wrap {
+    position: static !important;
+    padding: 10px;
+}
+
+.nb-event-container {
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#nb-event-item-header {
+    display: inline;
+}
+
+.nb-event-container h2 {
+    display: inline;
+}
+
+.nb-header-collapse {
+    display: inline-block;
+    overflow: auto;
+}
+
+.bn-header-collapse input {
+    overflow: hidden;
+}
+
+.nb-trigger-heading {
+    display:inline;
+}
+
+.nb-event-container hr {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.nb-event-container .nb-trigger-label {
+    display: inline;
+}
+
+.nb-event-container a {
+    text-decoration: none;
+    color: #1a1a1a;
+}
+
+.nb-event-container .nb-expand {
+    width: 36px;
+    height: 36px;
+    padding: 0;
+}
+
+.nb-event-container .nb-event-title {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.nb-trigger-options {
+    padding: 10px;
+}
+
+.nb-method-container {
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#nb-method-item-header {
+    display: inline;
+}
+
+.nb-method-container h2 {
+    display: inline;
+}
+
+.nb-header-collapse {
+    display: inline;
+}
+
+.nb-trigger-heading {
+    display:inline;
+}
+
+.nb-method-container .nb-service-label {
+    display: inline;
+}
+
+.nb-service-row {
+    padding: 5px;
+    margin: 10px;
+}
+
+.nb-method-container a {
+    text-decoration: none;
+    color: #1a1a1a;
+}
+
+.nb-method-container .nb-expand {
+    width: 36px;
+    height: 36px;
+    padding: 0;
+}
+
+.nb-method-container .nb-method-title {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.nb-service-options {
+    padding: 10px;
+}
+
+.nb-event-container .nb-trigger-row:nth-of-type(odd) {
+    background-color: #F5F5F5;
+}
+
+.nb-event-container .nb-trigger-row:nth-of-type(even) .quicktags-toolbar {
+    background-color: #FFFFFF;
+}
+.nb-event-container .wp-editor-area {
+    border: 1px solid #dedede;
+}
+
+.nb-method-container .nb-trigger-row:nth-of-type(odd) {
+    background-color: #F5F5F5;
+}
+
+.nb-method-container .nb-trigger-row:nth-of-type(even) .quicktags-toolbar {
+    background-color: #FFFFFF;
+}
+.nb-method-container .wp-editor-area {
+    border: 1px solid #dedede;
+}
+
+.nb-trigger-options h2 {
+    text-transform: uppercase;
+    font-size: 1.1em;
+    border-bottom: 1px solid #dedede;
+    margin: 0 0 15px 0;
+}
+
+.nb-header-container {
+    padding: 10px;
+    display: inline-block;
+    width: 100%;
+}
+
+.nb-header-container p {
+    display: inline;
+    font-weight: bold;
+}
+
+.nb-trigger-row {
+    padding: 5px;
+}
+
+.nb-box-expand {
+    padding-right: 15px;
+    float:right;
+}
+
+.wp-editor-container {
+    border: 0;
+}
+
+.nb-required-setting-row p {
+    display:inline;
+}
+
+.nb-optional-setting-row p {
+    display:inline;
+}
+
+.nb-required-setting-row input {
+    box-sizing: border-box;
+}
+
+.nb-optional-setting-row input {
+    box-sizing: border-box;
+}
+
+.nb-column-left {
+    display:inline-block;
+    width:50%;
+    left: 0;
+}
+
+.nb-column-right {
+    display:inline;
+    width: 50%;
+    right: 0;
+}
+
+.nb-column-right .select2 {
+    width: 49%;
+}
+
+.nb-trigger-options h2 {
+    display: block;
+}
+
+.nb-column-right input[type="text"] {
+    width: 49%;
+    border: 1px solid #aaa;
+    outline: 0;
+    background-color: white;
+    border-radius: 4px;
+    cursor: text;
+    min-height: 36px;
+}
+
+.nb-optional-setting-row, .nb-required-setting-row {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.errorClass {
+    border: 2px solid #FF0000 !important;
+}
+
+#add-new-selections {
+    display: inline-block;
+    width: 60%;
+}
+
+.nb-title {
+    border: solid black 1px;
+    border-radius: 4px;
+    min-height: 32px;
+    width: 100%;
+}
+
+.open .nb-box-expand:before {
+    content: "\f142";
+}
+
+.webhook-params-item input {
+    display: inline;
+    width: 45%;
+}
+
+.webhook-parameter-list .dashicons-plus {
+    padding-top: 5px;
+}
+
+.nb-trigger-message {
+    margin-bottom: 15px;
+}
+
+/*New UI*/
+
+.selection-tiles, .selection-tile-container-configured {
+    margin: 10px;
+    color: #444;
+    display: inline-block;
+    height: 100px;
+    width: 150px;
+    background-color: #F9F9F9;
+    border: 1px solid #EEEEEE;
+    cursor: pointer;
+    text-align: center;
+}
+
+.selection-tiles:hover {
+    background-color: #0073AA;
+    color: #FFF;
+}
+.selection-tile-container input[type=radio] {
+    display: none;
+}
+
+.selection-tile-container input[type="radio"]:checked+label, .selection-tile-container-configured {
+    background-color: #0073AA;
+    color: #FFF;
+}
+
+.selection-tile-container {
+    display: inline-block;
+}
+
+.nb-configured {
+    text-align: center;
+    display: inline-block;
+    background-color: #F9F9F9;
+    border: 1px solid #EEEEEE;
+    padding: 10px;
+    margin: 10px;
+    width: 170px;
+    box-sizing: content-box;
+    vertical-align: top;
+}
+
+.nb-configured-triggers {
+    text-align: center;
+    display: inline-block;
+    background-color: #F9F9F9;
+    border: 1px solid #EEEEEE;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: content-box;
+    overflow: hidden;
+}
+
+.configured-trigger-container {
+    display: inline-block;
+}
+
+.selection-tile-container-configured span {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.triggers, .events {
+    width: 49%;
+    padding: 10px;
+    display: inline-block;
+}
+
+.trigger-item-container {
+    background-color: #F9F9F9;
+    border: 1px solid #EEEEEE;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.trigger-selects {
+    display: inline-block;
+    flex-grow: 1;
+}
+
+.trigger-options {
+    display: inline-block;
+    width: 100%;
+    padding: 0 10px 10px 10px;
+}
+
+.trigger-options .column-left, .trigger-options .column-right {
+    width: 50%;
+}
+
+.trigger-options .column-left, .trigger-options .column-right, .trigger-option-container {
+    width: 50%;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.trigger-selects-expand {
+    vertical-align: super;
+    right: 0;
+    margin-right: 15px;
+}
+
+.trigger-selects-container {
+    width:auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.trigger .ui-select-container input {
+    width: auto;
+    flex-grow: 1;
+}
+
+.trigger .ui-select-container .ui-select-match input {
+    width: auto;
+    flex-grow: 1;
+}
+
+input.form-control {
+    width: 100% !important;
+}
+
+/*.conditional-condition .ui-select-container {*/
+    /*width: 100% !important;*/
+/*}*/
+
+.condition-container {
+    width: auto;
+    display: flex;
+}
+
+.conditional-condition, .conditional-is {
+    width: 50%;
+    flex-grow: 1;
+}
+
+.conditional-if select {
+    height: 34px;
+}
+
+.conditional-if {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 130px;
+}
+
+.trigger-header {
+    background-color: #EEEEEE;
+    font-weight: 700;
+    width: 100%;
+    vertical-align: super;
+    display: flex;
+    padding: 10px;
+}
+
+.trigger-header span {
+    font-weight: 700;
+    vertical-align: super;
+    flex-grow: 1;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 1.1em;
+    border-bottom: 1px solid #DEDEDE;
+    margin: 0 0 15px 0;
+}
+
+.save-trigger {
+    float: right;
+}
+
+trigger-category-select {
+    width: 100%;
+}
+
+.add-remove-condition {
+    margin-left: 5px;
+    vertical-align: super;
+}
+
+.add-remove-condition .button {
+    vertical-align: text-top;
+}
+
+.conditional-logic-row {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.message-tag-buttons {
+    margin-bottom: 10px;
+}
+

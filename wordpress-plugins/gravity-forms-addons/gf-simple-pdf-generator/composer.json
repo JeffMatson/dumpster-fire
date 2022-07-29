@@ -1,0 +1,12 @@
+{
+    "name": "jeffmatson/gf-simple-pdf-generator",
+    "require": {
+        "tecnickcom/tcpdf": "^6.2"
+    },
+    "authors": [
+        {
+            "name": "Jeff Matson",
+            "email": "jeff@jeffmatson.net"
+        }
+    ]
+}

@@ -1,0 +1,248 @@
+@font-face {
+    font-family: 'notifybot-icons';
+    src:    url('../fonts/notifybot.eot?ma5uts');
+    src:    url('../fonts/notifybot.eot?ma5uts#iefix') format('embedded-opentype'),
+    url('../fonts/notifybot.ttf?ma5uts') format('truetype'),
+    url('../fonts/notifybot.woff?ma5uts') format('woff'),
+    url('../fonts/notifybot.svg?ma5uts#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'notifybot-icons' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-hipchat-logo:before {
+    content: "\e902";
+}
+.icon-slack-logo:before {
+    content: "\e903";
+}
+.icon-pushwoosh-logo:before {
+    content: "\e90b";
+}
+.icon-sendgrid-logo:before {
+    content: "\e900";
+}
+.icon-notifybot-logo:before {
+    content: "\e901";
+}
+
+/*Red Button*/
+
+.wp-core-ui .button-red {
+    background-color: #9B2124;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#C5292E), to(#9B2124));
+    background-image: -webkit-linear-gradient(top, #C5292E, #9B2124);
+    background-image:    -moz-linear-gradient(top, #C5292E, #9B2124);
+    background-image:     -ms-linear-gradient(top, #C5292E, #9B2124);
+    background-image:      -o-linear-gradient(top, #C5292E, #9B2124);
+    background-image:   linear-gradient(to bottom, #C5292E, #9B2124);
+    border-color: #9B2124;
+    border-bottom-color: #8D1F21;
+    -webkit-box-shadow: inset 0 1px 0 rgba(120,200,230,0.5);
+    box-shadow: inset 0 1px 0 rgba(120,200,230,0.5);
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.1);
+}
+
+.wp-core-ui .button-red.hover,
+.wp-core-ui .button-red:hover,
+.wp-core-ui .button-red.focus,
+.wp-core-ui .button-red:focus {
+    background-color: #B72629;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#D22E30), to(#9B2124));
+    background-image: -webkit-linear-gradient(top, #D22E30, #9B2124);
+    background-image:    -moz-linear-gradient(top, #D22E30, #9B2124);
+    background-image:     -ms-linear-gradient(top, #D22E30, #9B2124);
+    background-image:      -o-linear-gradient(top, #D22E30, #9B2124);
+    background-image:   linear-gradient(to bottom, #D22E30, #9B2124);
+    border-color: #7F1C1F;
+    -webkit-box-shadow: inset 0 1px 0 rgba(120,200,230,0.6);
+    box-shadow: inset 0 1px 0 rgba(120,200,230,0.6);
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
+}
+
+.wp-core-ui .button-red.focus,
+.wp-core-ui .button-red:focus {
+    border-color: #500F0E;
+    -webkit-box-shadow: inset 0 1px 0 rgba(120,200,230,0.6), 1px 1px 2px rgba(0,0,0,0.4);
+    box-shadow: inset 0 1px 0 rgba(120,200,230,0.6), 1px 1px 2px rgba(0,0,0,0.4);
+}
+
+.wp-core-ui .button-red.active,
+.wp-core-ui .button-red.active:hover,
+.wp-core-ui .button-red.active:focus,
+.wp-core-ui .button-red:active {
+    background: #7F1C1F;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#9B2124), to(#B72629));
+    background-image: -webkit-linear-gradient(top, #9B2124, #B72629);
+    background-image:    -moz-linear-gradient(top, #9B2124, #B72629);
+    background-image:     -ms-linear-gradient(top, #9B2124, #B72629);
+    background-image:      -o-linear-gradient(top, #9B2124, #B72629);
+    background-image:   linear-gradient(to bottom, #9B2124, #B72629);
+    border-color: #601312 #AE2426 #AE2426 #AE2426;
+    color: rgba(255,255,255,0.95);
+    -webkit-box-shadow: inset 0 1px 0 rgba(0,0,0,0.1);
+    box-shadow: inset 0 1px 0 rgba(0,0,0,0.1);
+    text-shadow: 0 1px 0 rgba(0,0,0,0.1);
+}
+
+.wp-core-ui .button-red[disabled],
+.wp-core-ui .button-red:disabled,
+.wp-core-ui .button-red-disabled {
+    color: #E79496 !important;
+    background: #BA292B !important;
+    border-color: #7F1C1F !important;
+    -webkit-box-shadow: none !important;
+    box-shadow:         none !important;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.1) !important;
+    cursor: default;
+}
+
+/*Green Button*/
+
+.wp-core-ui .button-green {
+    background-color: #219B24;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#29c52e), to(#219B24));
+    background-image: -webkit-linear-gradient(top, #29c52e, #219B24);
+    background-image:    -moz-linear-gradient(top, #29c52e, #219B24);
+    background-image:     -ms-linear-gradient(top, #29c52e, #219B24);
+    background-image:      -o-linear-gradient(top, #29c52e, #219B24);
+    background-image:   linear-gradient(to bottom, #29c52e, #219B24);
+    border-color: #219B24;
+    border-bottom-color: #1F8D21;
+    -webkit-box-shadow: inset 0 1px 0 rgba(120,200,230,0.5);
+    box-shadow: inset 0 1px 0 rgba(120,200,230,0.5);
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.1);
+}
+
+.wp-core-ui .button-green.hover,
+.wp-core-ui .button-green:hover,
+.wp-core-ui .button-green.focus,
+.wp-core-ui .button-green:focus {
+    background-color: #26B729;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#2ED230), to(#219B24));
+    background-image: -webkit-linear-gradient(top, #2ED230, #219B24);
+    background-image:    -moz-linear-gradient(top, #2ED230, #219B24);
+    background-image:     -ms-linear-gradient(top, #2ED230, #219B24);
+    background-image:      -o-linear-gradient(top, #2ED230, #219B24);
+    background-image:   linear-gradient(to bottom, #2ED230, #219B24);
+    border-color: #1c7f1f;
+    -webkit-box-shadow: inset 0 1px 0 rgba(120,200,230,0.6);
+    box-shadow: inset 0 1px 0 rgba(120,200,230,0.6);
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
+}
+
+.wp-core-ui .button-green.focus,
+.wp-core-ui .button-green:focus {
+    border-color: #0f500e;
+    -webkit-box-shadow: inset 0 1px 0 rgba(120,200,230,0.6), 1px 1px 2px rgba(0,0,0,0.4);
+    box-shadow: inset 0 1px 0 rgba(120,200,230,0.6), 1px 1px 2px rgba(0,0,0,0.4);
+}
+
+.wp-core-ui .button-green.active,
+.wp-core-ui .button-green.active:hover,
+.wp-core-ui .button-green.active:focus,
+.wp-core-ui .button-green:active {
+    background: #1c7f1f;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#219B24), to(#26B729));
+    background-image: -webkit-linear-gradient(top, #219B24, #26B729);
+    background-image:    -moz-linear-gradient(top, #219B24, #26B729);
+    background-image:     -ms-linear-gradient(top, #219B24, #26B729);
+    background-image:      -o-linear-gradient(top, #219B24, #26B729);
+    background-image:   linear-gradient(to bottom, #219B24, #26B729);
+    border-color: #136012 #24ae26 #24ae26 #24ae26;
+    color: rgba(255,255,255,0.95);
+    -webkit-box-shadow: inset 0 1px 0 rgba(0,0,0,0.1);
+    box-shadow: inset 0 1px 0 rgba(0,0,0,0.1);
+    text-shadow: 0 1px 0 rgba(0,0,0,0.1);
+}
+
+.wp-core-ui .button-green[disabled],
+.wp-core-ui .button-green:disabled,
+.wp-core-ui .button-green-disabled {
+    color: #94e796 !important;
+    background: #29ba2b !important;
+    border-color: #1c7f1f !important;
+    -webkit-box-shadow: none !important;
+    box-shadow:         none !important;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.1) !important;
+    cursor: default;
+}
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {display:none;}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
