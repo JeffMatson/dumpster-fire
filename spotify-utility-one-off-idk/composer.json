@@ -1,0 +1,13 @@
+{
+    "name": "jeffmatson/public",
+    "authors": [
+        {
+            "name": "Jeff Matson",
+            "email": "jeff@jeffmatson.net"
+        }
+    ],
+    "require": {
+        "jwilsson/spotify-web-api-php": "^2.0",
+        "samchristy/piechart": "^2.0"
+    }
+}
